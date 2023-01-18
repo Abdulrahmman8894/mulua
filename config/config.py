@@ -52,7 +52,7 @@ UPSTREAM_REPO = getenv(
     "https://github.com/goharaM/gohara",
 )
 #متغيرهاش نهائي
-UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
+UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
 # توكون الجيث هاب لو حابب تضيفو
 GIT_TOKEN = getenv("GIT_TOKEN", None)
