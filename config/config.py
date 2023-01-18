@@ -33,7 +33,7 @@ SONG_DOWNLOAD_DURATION = int(
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001788160400"))
 
 # اسم البوت مينفعش تكتبو مزغرف
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME","error")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME","quran")
 
 # ايديهات المطورين الملاك
 OWNER_ID = list(
@@ -158,7 +158,7 @@ autoclean = []
 
 
 # صوره الاستارت
-START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/604e8be096af73b1b37dd.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/2987039aba6483f5e0fff.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
