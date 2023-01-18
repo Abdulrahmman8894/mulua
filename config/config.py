@@ -59,7 +59,7 @@ GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 # قناه الاشتراك الاجباري بدون @
 CHANNEL = getenv(
-    "CHANNEL", "RDPDDP"
+    "CHANNEL", "AzkarMusIim"
 )  # قناه الاشتراك الاجباري مثل هيك https://t.me/AzkarMusIim
 CHANNEL_SUDO = getenv(
     "CHANNEL_SUDO", "https://t.me/AzkarMusIim"
@@ -100,7 +100,7 @@ YOUTUBE_DOWNLOAD_EDIT_SLEEP = int(getenv("YOUTUBE_EDIT_SLEEP", "3"))
 TELEGRAM_DOWNLOAD_EDIT_SLEEP = int(getenv("TELEGRAM_EDIT_SLEEP", "5"))
 
 # هيدي في رساله استارت لصنع بوت 
-GITHUB_REPO = getenv("GITHUB_REPO", "https://t.me/K_1_1_0")
+GITHUB_REPO = getenv("GITHUB_REPO", "https://t.me/AzkarMusIim")
 
 # Spotify Client.. Get it from https://developer.spotify.com/dashboard
 SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", None)
