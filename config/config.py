@@ -30,14 +30,14 @@ SONG_DOWNLOAD_DURATION = int(
 ) 
 
 # جروب اللي مرفوع فيه البوت والمساعد ادمن 
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001620652935"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001788160400"))
 
 # اسم البوت مينفعش تكتبو مزغرف
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME","error")
 
 # ايديهات المطورين الملاك
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "5424180506").split())
+    map(int, getenv("OWNER_ID", "5948670909").split())
 ) 
 
 # سيبو زي مهوه ملهوش لزمه
@@ -60,15 +60,15 @@ GIT_TOKEN = getenv("GIT_TOKEN", None)
 # قناه الاشتراك الاجباري بدون @
 CHANNEL = getenv(
     "CHANNEL", "RDPDDP"
-)  # قناه الاشتراك الاجباري مثل هيك https://t.me/RDPDDP
+)  # قناه الاشتراك الاجباري مثل هيك https://t.me/AzkarMusIim
 CHANNEL_SUDO = getenv(
-    "CHANNEL_SUDO", "https://t.me/RDPDDP"
-)  # قناة السورس هيك https://t.me/RDPDDP
+    "CHANNEL_SUDO", "https://t.me/AzkarMusIim"
+)  # قناة السورس هيك https://t.me/AzkarMusIim
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/RDPDDP"
-)  #جروب السورس https://t.me/K_1_1_0_0
+    "SUPPORT_CHANNEL", "https://t.me/AzkarMusIim"
+)  #جروب السورس https://t.me/AzkarMusIim
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/K_1_1_0_0"
+    "SUPPORT_GROUP", "https://t.me/AzkarMusIim3"
 ) 
 
 # ما تلعب بيها حبي هي عند الاغنيه متخلص ينزل المساعد من الكول
